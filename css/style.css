@@ -3,35 +3,73 @@
 }
 
 body {
-  max-width: 1360px;
   background-color: #dadada;
-  font-size: 75%;
+  font-size: 10px;
 }
 
-h1.title{
+.container {
   padding: 3%;
   margin: 3%;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-family: system-ui, sans-serif;
-  font-size: 1em;
-}
-
-div h1{
-  position:relative;
-  top: 50px;
-  left: 16px;
-  font-size: 2em;
-}
-
-.container{
-  width: auto;
-}
-
-img{
   width: 100%;
+  text-align: center;
+}
+
+/* Modern Luxury Travel - title */
+.emphasis {
+  padding: 3%;
+  margin: 5%;
+  font-size: 1em;
+  font-family: system-ui, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+div {
+  display: inline-block;
+  margin: 20px;
+  padding: 25px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.preview {
+  background-size: cover;
+  display: inline-block;
   height: 200px;
+}
+
+.preview h1 {
+    font-size: 1.5em;
+    font-family: serif;
+    text-align: left;
+}
+
+.baku {
+  background-image: url(/images/baku.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.london {
+  background-image: url(/images/london.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.madrid {
+  background-image: url(/images/madrid.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.rome {
+  background-image: url(/images/rome.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* Media query for 2 column design - tablet/smartphone */
